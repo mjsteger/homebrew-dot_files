@@ -5,9 +5,9 @@
 class DotFiles < Formula
   desc ""
   homepage ""
-  url "https://github.com/mjsteger/dot_files/archive/0.0.2.tar.gz"
-  version "0.0.2"
-  sha256 "c877607ee7be7f60061a4f4fa4d670763c4c4660a2a9685a927e5f3365685e38"
+  url "https://github.com/mjsteger/dot_files/archive/0.0.3.tar.gz"
+  version "0.0.3"
+  sha256 "4ca5f6a59685c801f556ce877742543cad88c891d42624531cabe5ac6d45b1b7"
 
   # depends_on "cmake" => :build
 
