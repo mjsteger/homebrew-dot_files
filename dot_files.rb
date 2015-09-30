@@ -15,7 +15,7 @@ class DotFiles < Formula
     # ENV.deparallelize  # if your formula fails when building in parallel
 
     # Remove unrecognized options if warned by configure
-    system "git init"
-    system "./install-script-mac.sh"
+    system "git init && git submodule init && git submodule update"
+    bin.install "install-dot-files"
   end
 end
